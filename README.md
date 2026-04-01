@@ -1,6 +1,12 @@
 # Portfolio-pour-la-rencontre
 Portfolio contenant les liens pour les TP-1, TP-2, TP-3 et TP-4 (Capture d'écran, liens)
 
+## Choix de style pour le support visuel de votre entretien
+Style 2 - Blog — blog / blog-popover
+
+## Questions
+Questions à poser:
+
 ## TP-1 : À la manière de 
 ### Lien du projet sur Github: [https://github.com/integration2/tp1-claudielanglais](https://github.com/integration2/tp1-claudielanglais)
 
