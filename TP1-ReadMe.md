@@ -22,6 +22,7 @@
 ### Capture d'écran
 
 ![Capture écran du projet terminé](https://github.com/integration2/tp1-claudielanglais/blob/main/images/screencapture-integration2-github-io-tp1-claudielanglais-2026-02-09-11_51_24.png)
+![Capture écran du projet terminé](https://github.com/claudielanglais/Portfolio-pour-la-rencontre/blob/main/Captures%20d'%C3%A9cran/TP-1/screencapture-integration2-github-io-tp1-claudielanglais-2026-04-01-07_58_16.png)
 
 ### Lien
 
