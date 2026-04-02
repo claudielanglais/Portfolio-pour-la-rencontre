@@ -3,10 +3,10 @@ Portfolio contenant les liens pour les TP-1, TP-2, TP-3 et TP-4 (Capture d'écra
 
 ## Table des matières
 
-- [TP1 ](#TP-1)
-- [TP2](#TP-2)
-- [TP3](#TP-3)
-- [TP4](|TP-4)
+- [TP1](#tp-1)
+- [TP2](#tp-2)
+- [TP3](#tp-3)
+- [TP4](#tp-4)
 
 ## Choix de style pour le support visuel de votre entretien
 Style 2 - Blog — blog / blog-popover
