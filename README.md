@@ -4,10 +4,10 @@ Portfolio contenant les liens pour les TP-1, TP-2, TP-3 et TP-4 (Capture d'écra
 ## Table des matières
 [TP1 À la manière de - Solution](#Portfolio-pour-la-rencontre)
   - [Table des matières](#table-des-matières)
-  - [TP1](#TP-1)
-  - [TP2](#TP-2)
-  - [TP3](#TP-3)
-  - [TP4](#TP-4)
+  - [TP1](#TP-1-:-À-la-manière-de)
+  - [TP2](#TP-2-:-Frontend-Mentor---Solution-Grille-Bento)
+  - [TP3](#TP-3-:-Formulaire-accessible-validé)
+  - [TP4](#TP-4-:-)
 
 ## Choix de style pour le support visuel de votre entretien
 Style 2 - Blog — blog / blog-popover
