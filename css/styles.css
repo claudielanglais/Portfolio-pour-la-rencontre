@@ -7,9 +7,8 @@ body {
 /*HEADER*//*--------------------------------------------------------------------------------------------------*/
 .header {
     margin-top: 5rem;
-    padding: 5rem 2rem 0rem 2rem;
+    padding: 5rem 2rem 1rem 2rem;
     background-color: white;
-    border-bottom: solid 2px blueviolet;
     border-radius: 15px;
 }
 .header__classe {
@@ -28,4 +27,57 @@ body {
 }
 .header__info .header__texte:last-of-type {
     padding-left: 5rem;
+}
+/*MAIN*//*--------------------------------------------------------------------------------------------------*/
+.main {
+    background-color: white;
+    border-top: solid 2px blueviolet;
+    margin-top: -1rem;
+}
+/*INTRO*/
+.main__intro {
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: rgb(231, 223, 239);
+}
+/*TP*/
+.main__separateur {
+    position: relative;
+    padding: 0 1rem;
+}
+.main__separateur::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 4rem;
+    width: 39.75rem;
+    border-top: 2px solid blueviolet;
+}
+.main__separateur::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 0.8rem;
+    border-top: 2px solid blueviolet;
+}
+.main__tp {
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid rgb(231, 223, 239);
+    border-radius: 10px;
+}
+.main__timeline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main__info {
+    text-transform: uppercase;
+}
+.main__apprentissage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
