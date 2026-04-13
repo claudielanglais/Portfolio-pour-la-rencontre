@@ -1,0 +1,31 @@
+body {
+    margin: auto;
+    max-width: 700px;
+    background-color: rgb(35, 35, 35);
+}
+
+/*HEADER*//*--------------------------------------------------------------------------------------------------*/
+.header {
+    margin-top: 5rem;
+    padding: 5rem 2rem 0rem 2rem;
+    background-color: white;
+    border-bottom: solid 2px blueviolet;
+    border-radius: 15px;
+}
+.header__classe {
+    text-transform: uppercase;
+}
+.header__titre {
+    font-variant:small-caps;
+}
+.header__strong {
+    color: blueviolet;
+    font-style: italic;
+}
+.header__info {
+    display: flex;
+    flex-direction: row;
+}
+.header__info .header__texte:last-of-type {
+    padding-left: 5rem;
+}
