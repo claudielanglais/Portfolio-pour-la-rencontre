@@ -27,7 +27,7 @@
         <p class="main__separateur">Projets</p>
         <div class="main__tp">
             <div class="main__timeline">
-                <p class="main__semaine">semaine 2</p>
+                <p class="main__semaine">Semaine 2</p>
                 <p class="main__info-tp">TP</p>
             </div>
             <h3 class="main__titre-tp">TP-1 : À la manière de ... </h3>
@@ -39,8 +39,24 @@
                 <p class="main__info-apprentissage">Sémantique</p>
             </div>
             <p class="main__texte">Ce travail pratique était l'occasion d'appliquer l'approche en amélioration progressive: intégrer d'abord le HTML structurel et sémantique</p>
-            <button popovertarget="info">+ Plus de Détails</button>
-            <div popover id="info">This is a popover!</div>
+            <button class="main__button" popovertarget="info">+ Plus de Détails</button>
+            <div popover class="main__popover" id="info">
+                <div class="main__timeline-popover">
+                    <p class="main__semaine">Semaine 2</p>
+                    <p class="main__info-tp">TP</p>
+                </div>
+                <h3 class="main__titre-tp">TP-1 : À la manière de ... </h3>
+                <div class="main__retroaction">
+                    <div class="main__evaluation">
+                        <h4 class="main__titre-difficile">Ce qui était difficile</h4>
+                        <p class="main__texte-popover">Configurer Github et comprendre comment les commits fonctionnaient et centrer les éléments avec le flexbox.</p>
+                    </div>
+                    <div class="main__evaluation">
+                        <h4 class="main__titre-facile">Ce dont je suis fière</h4>
+                        <p class="main__texte-popover">J'ai réussit à coder le flexbox des articles avec wrap pour qu'il change se la taille de l'écran.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     <footer class="footer">
