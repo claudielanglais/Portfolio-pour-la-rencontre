@@ -73,11 +73,90 @@ body {
     flex-direction: row;
     justify-content: space-between;
 }
+.main__info-tp {
+    border: 1px blueviolet solid;
+    border-radius: 8px;
+    background-color: rgb(231, 223, 239);
+    color: blueviolet;
+    padding: 0 0.5rem 0 0.5rem;
+}
+.main__semaine {
+    opacity: 60%;
+    font-variant:small-caps;
+    padding-right: 1rem;
+}
+.main__titre-tp {
+    text-transform:uppercase;
+    border-bottom: 2px solid blueviolet;
+    margin-right: 22rem;
+}
 .main__info {
-    text-transform: uppercase;
+    font-variant:small-caps;
 }
 .main__apprentissage {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+}
+.main__info-apprentissage {
+    border: 1px rgb(126, 126, 126) solid;
+    border-radius: 10px;
+    background-color: rgb(244, 244, 244);
+    margin: -0.5rem 1rem 0 0;
+    padding: 0.5rem;
+    color: rgb(126, 126, 126);
+    font-size: 0.8rem;
+}
+.main__button {
+    padding: 0.5rem;
+    background-color: white;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+}
+.main__button:hover {
+    background-color: blueviolet;
+    color: white;
+}
+.main__popover {
+    border: 2px blueviolet solid;
+    border-radius: 10px;
+    padding: 1rem;
+    max-width: 600px;
+}
+.main__popover::backdrop {
+    background-color: black;
+    opacity: 0.5;
+}
+.main__retroaction {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.main__timeline-popover {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -1rem;
+}
+.main__evaluation {
+    border: 3px rgb(231, 223, 239) solid;
+    border-radius: 10px;
+    margin: 0.5rem;
+    width: 25rem;
+    height: 10rem;
+}
+.main__titre-difficile {
+    font-variant:small-caps;
+    color: rgb(226, 43, 43);
+    border-bottom: 1.5px solid rgb(226, 43, 43);
+    margin: 1.5rem 5rem 0 1rem;
+    font-size: large;
+}
+.main__titre-facile {
+    font-variant:small-caps;
+    color: rgb(26, 171, 74);
+    border-bottom: 1.5px solid rgb(26, 171, 74);
+    margin: 1.5rem 5rem 0 1rem;
+    font-size: large;
+}
+.main__texte-popover {
+    padding: 0 1rem 0 1rem;
 }
