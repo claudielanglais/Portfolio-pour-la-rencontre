@@ -161,6 +161,52 @@ body {
 .main__texte-popover {
     padding: 0 1rem 0 1rem;
 }
+/*TP - IMAGE *//*--------------------------------------------------------------------------------------------------*/
+.main__button-img {
+    display: flex;
+    justify-self: center;
+    border: none;
+    border-radius: 10px;
+}
+.main__button-img:hover,
+.main__button-img:active {
+    border: 1px solid blueviolet;
+    filter:brightness(90%);
+}
+.main__button-image {    
+    width: 300px;    
+    height: 400px;  
+    background-image: url(../Images/TP-1/screencapture-integration2-github-io-tp1-claudielanglais-2026-04-01-07_58_16.png);
+    background-size: 300px;
+}
+.main__popover-img {
+    border: 2px blueviolet solid;
+    border-radius: 10px;
+}
+.main__img {
+    width: 65px;
+    height: 700px;
+    background-image: url(../Images/TP-1/screencapture-integration2-github-io-tp1-claudielanglais-2026-04-01-07_58_16.png);
+    background-size: 65px;
+}
+.main__popover-img::backdrop {
+    background-color: black;
+    opacity: 0.5;
+}
+@media (min-width:715px) {
+    .main__button-image {
+        width: 620px;    
+        height: 300px;  
+        background-image: url(../Images/TP-1/screencapture-integration2-github-io-tp1-claudielanglais-2026-02-09-11_51_24.png);
+        background-size: 600px;
+    }
+    .main__img {
+        width: 440px;
+        height: 700px;
+        background-image: url(../Images/TP-1/screencapture-integration2-github-io-tp1-claudielanglais-2026-02-09-11_51_24.png);
+        background-size: 440px;
+    }
+}
 /*FOOTER*//*--------------------------------------------------------------------------------------------------*/
 .footer {
     background-color: white;
