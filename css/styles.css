@@ -287,39 +287,6 @@ body {
     z-index:1000;
 }
 
-.header__strong {
-   background: linear-gradient(90deg, blueviolet, blueviolet) 0/ 0px no-repeat #cecece;
-    -webkit-background-clip: text;
-            background-clip: text;
-    -webkit-text-fill-color: transparent;
-  animation: reveal .1s;
-  animation-timeline: scroll(root);
-}
-
-@keyframes reveal{
-    0% {
-        background-size: 0%;
-    }
-    5% {
-        background-size: 100%;
-    }
-    
-}
-.main__info-apprentissage {
-    animation-name: myAnimation;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes myAnimation {
-    from {
-        left: -15rem;
-    }
-    to {
-        left: 0;
-    }
-}
-
 .main__button {
     display: block;
     position: relative;
@@ -347,4 +314,32 @@ body {
 
 .main__button:hover:after{
   width: 100%;
+}
+
+.main__popover::backdrop {
+    background-color: black;
+    animation-name: opacity;
+    animation-duration: 2s;
+}
+@keyframes opacity {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: o.5;
+    }
+}
+
+.footer__progressbar {
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-timeline: view();
+}
+@keyframes slide {
+    0% {
+        width: 0%;
+    }
+    50% {
+        width: 85%; 
+    }
 }
