@@ -49,9 +49,6 @@ Lien pages: [https://claudielanglais.github.io/TP3-Formulaire_accessible-claudie
 
 Lien pages: [https://claudielanglais.github.io/TP4-Kampadejo/](https://claudielanglais.github.io/TP4-Kampadejo/)
 
-Captures d'écran large: 
 ![Menu Table](https://github.com/claudielanglais/TP4-Kampadejo/blob/main/assets/images/Capture%20d%E2%80%99%C3%A9cran_nav_grand_ecran.png)
-
-Captures d'écran étroit: 
 ![Menu fermé mobile](https://github.com/claudielanglais/TP4-Kampadejo/blob/main/assets/images/Capture%20d%E2%80%99%C3%A9cran_nav_fermer_mobile.png)
 ![Menu ouvert mobile](https://github.com/claudielanglais/TP4-Kampadejo/blob/main/assets/images/Capture%20d%E2%80%99%C3%A9cran_nav_ouvert_mobile.png)
