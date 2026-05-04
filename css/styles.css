@@ -20,6 +20,7 @@ body {
 .header__strong {
     color: blueviolet;
     font-style: italic;
+    font-size: 2.5rem;
 }
 .header__info {
     display: flex;
@@ -162,49 +163,37 @@ body {
     padding: 0 1rem 0 1rem;
 }
 /*TP - IMAGE *//*--------------------------------------------------------------------------------------------------*/
-.main__button-img {
-    display: flex;
-    justify-self: center;
-    border: none;
-    border-radius: 10px;
+.main__scroll {
+    overflow-y: auto;
+    max-height: 400px;
 }
-.main__button-img:hover,
-.main__button-img:active {
-    border: 1px solid blueviolet;
-    filter:brightness(90%);
+.main__scroll::-webkit-scrollbar {
+  width: 10px;
 }
-.main__button-image {    
-    width: 300px;    
-    height: 400px;  
-    background-image: url(../Images/TP-1/screencapture-integration2-github-io-tp1-claudielanglais-2026-04-01-07_58_16.png);
-    background-size: 300px;
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
 }
-.main__popover-img {
-    border: 2px blueviolet solid;
-    border-radius: 10px;
+::-webkit-scrollbar-thumb {
+  background: blueviolet;
 }
-.main__img {
-    width: 65px;
-    height: 700px;
-    background-image: url(../Images/TP-1/screencapture-integration2-github-io-tp1-claudielanglais-2026-04-01-07_58_16.png);
-    background-size: 65px;
+::-webkit-scrollbar-thumb:hover {
+  background: black;
 }
-.main__popover-img::backdrop {
-    background-color: black;
-    opacity: 0.5;
+
+@media (max-width:715px) {
+    .main__img-mobile {
+        width: 400px;    
+    }
+    .main__img-table {
+        display: none;
+    }
 }
 @media (min-width:715px) {
-    .main__button-image {
-        width: 620px;    
-        height: 300px;  
-        background-image: url(../Images/TP-1/screencapture-integration2-github-io-tp1-claudielanglais-2026-02-09-11_51_24.png);
-        background-size: 600px;
+    .main__img-table {
+        width: 600px;
     }
-    .main__img {
-        width: 440px;
-        height: 700px;
-        background-image: url(../Images/TP-1/screencapture-integration2-github-io-tp1-claudielanglais-2026-02-09-11_51_24.png);
-        background-size: 440px;
+    .main__img-mobile {
+        display: none;
     }
 }
 /*FOOTER*//*--------------------------------------------------------------------------------------------------*/
@@ -271,4 +260,59 @@ body {
     justify-content: space-around;
     padding: 1rem 1rem 2rem 1rem;
     opacity: 60%;
+}
+
+/*STYLE & ANIMATIONS*//*-------------------------------------------------------------------------------------------------------*/
+.blur__top {
+    position: fixed;
+    margin-left: -10rem;
+    filter: blur(20px);
+    background-color: rgb(35, 35, 35);
+    width: 1000px;
+    height: 50px;
+    top: -5%;
+    z-index:1000;
+}
+.blur__bottom {
+    position: fixed;
+    margin-left: -10rem;
+    filter: blur(20px);
+    background-color: rgb(35, 35, 35);
+    width: 1000px;
+    height: 50px;
+    bottom: -5%;
+    z-index:1000;
+}
+
+.header__strong {
+   background: linear-gradient(90deg, blueviolet, blueviolet) 0/ 0px no-repeat #cecece;
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+  animation: reveal .1s;
+  animation-timeline: scroll(root);
+}
+
+@keyframes reveal{
+    0% {
+        background-size: 0%;
+    }
+    5% {
+        background-size: 100%;
+    }
+    
+}
+.main__info-apprentissage {
+    animation-name: myAnimation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes myAnimation {
+    from {
+        left: -15rem;
+    }
+    to {
+        left: 0;
+    }
 }
