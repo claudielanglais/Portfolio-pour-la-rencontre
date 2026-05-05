@@ -288,7 +288,7 @@ body {
 }
 
 /*STYLE & ANIMATIONS*//*-------------------------------------------------------------------------------------------------------*/
-.blur__top {
+/* .blur__top {
     position: fixed;
     margin-left: -10rem;
     filter: blur(20px);
@@ -307,7 +307,7 @@ body {
     height: 50px;
     bottom: -5%;
     z-index:1000;
-}
+} */
 
 .main__button {
     display: block;
@@ -381,7 +381,7 @@ body {
         border-radius: 10px;
     }
     60% {
-        border: 5px solid blueviolet;
+        border: 3px solid blueviolet;
         border-radius: 10px;
     }
     100% {
@@ -414,3 +414,32 @@ body {
     }
 }
 
+.progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5px;
+    z-index: 1000;
+    background-color: black;
+    animation:
+        scaleProgress auto linear,
+        colorChange auto linear;
+    animation-timeline: scroll(root);
+}
+
+@keyframes scaleProgress {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes colorChange {
+  0% {
+    background-color: black;
+  }
+  100% {
+    background-color: blueviolet;
+  }
+}
