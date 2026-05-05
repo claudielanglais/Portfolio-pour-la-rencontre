@@ -67,7 +67,7 @@ body {
     position: absolute;
     top: 50%;
     left: 4.2rem;
-    width: 39.75rem;
+    width: 39.55rem;
     border-top: 2px solid blueviolet;
 }
 .main__separateur::before {
@@ -95,6 +95,14 @@ body {
     background-color: rgb(231, 223, 239);
     color: blueviolet;
     padding: 0 0.5rem 0 0.5rem;
+}
+.main__info-exercice {
+    border: 1px gray solid;
+    border-radius: 8px;
+    background-color: white;
+    color: gray;
+    padding: 0 0.5rem 0 0.5rem;
+    font-variant:small-caps;
 }
 .main__semaine {
     opacity: 60%;
@@ -357,3 +365,52 @@ body {
         width: 85%; 
     }
 }
+
+.main__tp {
+    view-timeline-name: --box-timeline;
+    view-timeline-axis: block;
+
+    animation: evidence 1s ease both;
+    animation-timeline: --box-timeline;
+    animation-range: entry 0% cover 100%;
+}
+
+@keyframes evidence {
+    0% {
+        border: 2px solid rgb(231, 223, 239);
+        border-radius: 10px;
+    }
+    60% {
+        border: 5px solid blueviolet;
+        border-radius: 10px;
+    }
+    100% {
+        border: 2px solid rgb(231, 223, 239);
+        border-radius: 10px;
+    }
+}
+
+.main__semaine {
+    view-timeline-name: --box-timeline;
+    view-timeline-axis: block;
+
+    animation: evidence-semaine 1s ease both;
+    animation-timeline: --box-timeline;
+    animation-range: entry 0% cover 100%;
+}
+
+@keyframes evidence-semaine {
+    0% {
+        opacity: 60%;
+    }
+    40%,
+    90% {
+        opacity: 100%;
+        color: blueviolet;
+        font-weight: 500;
+    }
+    100% {
+        opacity: 60%;
+    }
+}
+
