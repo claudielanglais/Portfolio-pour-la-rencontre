@@ -187,6 +187,18 @@ body {
 .main__texte-popover {
     padding: 0 1rem 0 1rem;
 }
+.main_lien-git {
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+}
+.lien-git {
+    color: black;
+}
+.lien-git:hover,
+.lien-git:active {
+    color: blueviolet;
+}
 /*TP - IMAGE *//*--------------------------------------------------------------------------------------------------*/
 .main__scroll {
     overflow-y: auto;
@@ -414,7 +426,7 @@ body {
     }
 }
 
-.progress {
+/* .progress {
     position: fixed;
     top: 0;
     left: 0;
@@ -442,4 +454,112 @@ body {
   100% {
     background-color: blueviolet;
   }
+} */
+
+.dot {
+    position: fixed;
+    top: 34.57%;
+    width: 21px;
+    height: 21px;
+    border: 3px solid blueviolet;
+    border-radius: 50px;
+    margin-left: -52.5px;
+}
+.dot2{
+    top: 39.63%;
+    position: fixed;
+    width: 21px;
+    height: 21px;
+    border: 3px solid blueviolet;
+    border-radius: 50px;
+    margin-left: -52.5px;
+}
+.dot3 {
+    top: 44.56%;
+    position: fixed;
+    width: 21px;
+    height: 21px;
+    border: 3px solid blueviolet;
+    border-radius: 50px;
+    margin-left: -52.5px;
+}
+.dot4 {
+    top: 49.6%;
+    position: fixed;
+    width: 21px;
+    height: 21px;
+    border: 3px solid blueviolet;
+    border-radius: 50px;
+    margin-left: -52.5px;
+}
+.dot5 {
+    top: 54.65%;
+    position: fixed;
+    width: 21px;
+    height: 21px;
+    border: 3px solid blueviolet;
+    border-radius: 50px;
+    margin-left: -52.5px;
+}
+.dot6 {
+    top: 59.57%;
+    position: fixed;
+    width: 21px;
+    height: 21px;
+    border: 3px solid blueviolet;
+    border-radius: 50px;
+    margin-left: -52.5px;
+}
+.dot7 {
+    top: 64.63%;
+    position: fixed;
+    width: 21px;
+    height: 21px;
+    border: 3px solid blueviolet;
+    border-radius: 50px;
+    margin-left: -52.5px;
+}
+
+.dot_over {
+    position: fixed;
+    top: 35.15%;
+    width: 17px;
+    height: 17px;
+    background-color: white;
+    border-radius: 50px;
+    margin-left: -48px;
+    z-index: 1000;
+
+    animation-name: dot-slide;
+    animation-timeline: scroll(root);
+}
+@keyframes dot-slide {
+    10%,
+    20%{
+        top: 35.15%;
+    }
+    25%,
+    35% {
+        top:40.2%;
+    }
+    40%,
+    50% {
+        top:45.2%
+    }
+    55%,
+    65% {
+        top:50.2%;
+    }
+    68%,
+    76% {
+        top:55.25%;
+    }
+    81%,
+    91% {
+        top:60.2%;
+    }
+    94%,
+    100% {
+        top:65.2%;
+    }
 }
